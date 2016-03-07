@@ -18,7 +18,7 @@ while (True) :
         print("Sphinx error; {0}".format(e))
 
 
-    if (s == "exit") :
+    if ("exit" in s) :
         break
 
     call(["php", "./alice.php", "Zarvox", s])
